@@ -387,6 +387,7 @@ export class SpreadsheetSkeleton extends Skeleton {
         };
     }
 
+    // PERF: we don't need to recalculate this every time it re-renders
     private _generateRowMatrixCache(rowCount: number, rowData: ObjectArrayType<Partial<IRowData>>, defaultRowHeight: number) {
         let rowTotalHeight = 0;
         const rowHeightAccumulation: number[] = [];
