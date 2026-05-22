@@ -1,38 +1,38 @@
 import {
   UniverDocsMentionUIPlugin
-} from "../chunk-D3QPH7QN.js";
+} from "../chunk-SXQRNEBK.js";
 import {
   SetActiveCommentOperation,
   ThreadCommentPanel,
   ThreadCommentPanelService,
   UniverThreadCommentUIPlugin
-} from "../chunk-LPGYMPP7.js";
-import "../chunk-SYD2KNGE.js";
+} from "../chunk-HTRSISJJ.js";
+import "../chunk-6ZTLU7PB.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-WGQO6E54.js";
+} from "../chunk-24Q7642V.js";
 import {
   InsertDocImageCommand,
   UniverDocsDrawingUIPlugin
-} from "../chunk-THXVG335.js";
+} from "../chunk-IF37WRIX.js";
 import {
   AddCommentMutation,
   IThreadCommentDataSourceService,
   ThreadCommentModel,
   getDT
-} from "../chunk-VVSCTRT4.js";
-import "../chunk-MOHJC2BO.js";
+} from "../chunk-IETYKXRU.js";
+import "../chunk-P3COAZ6H.js";
 import {
   UniverDocsDrawingPlugin,
   UniverDrawingUIPlugin
-} from "../chunk-MLFBVVME.js";
+} from "../chunk-SM5XGW6L.js";
 import {
   FUniver
-} from "../chunk-BOFO7FDU.js";
-import "../chunk-MBZ442FO.js";
+} from "../chunk-RRPQGQCJ.js";
+import "../chunk-PQXBTX33.js";
 import {
   DEFAULT_DOCUMENT_DATA_SIMPLE
-} from "../chunk-YLOR7Z6Y.js";
+} from "../chunk-3MPN2FQO.js";
 import {
   BulletListCommand,
   CutContentCommand,
@@ -66,7 +66,7 @@ import {
   getAnchorBounding,
   replaceSelectionFactory,
   whenDocAndEditorFocused
-} from "../chunk-PPREH44U.js";
+} from "../chunk-UYLQVP27.js";
 import "../chunk-LI6UXASZ.js";
 import {
   Button,
@@ -98,20 +98,20 @@ import {
   useDependency,
   useEvent,
   useObservable
-} from "../chunk-NW5FEDQC.js";
+} from "../chunk-RDPVWSGF.js";
 import {
   zh_CN_default
-} from "../chunk-OROQCTWB.js";
-import "../chunk-5YA62WFH.js";
+} from "../chunk-BX66AN5H.js";
+import "../chunk-CTBLWIU7.js";
 import {
   UniverFormulaEnginePlugin
-} from "../chunk-JGEZE7BC.js";
+} from "../chunk-QLAYCCMO.js";
 import {
   IRenderManagerService,
   UniverRenderEnginePlugin,
   ptToPixel,
   withCurrentTypeOfRenderer
-} from "../chunk-VYDPVHQH.js";
+} from "../chunk-ADPAOSVN.js";
 import {
   BehaviorSubject,
   BuildTextUtils,
@@ -147,7 +147,7 @@ import {
   sequenceExecute,
   tap,
   toDisposable
-} from "../chunk-UI3TUZSE.js";
+} from "../chunk-P5OMPNXM.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -159,10 +159,10 @@ import {
 // ../packages/docs-hyper-link/package.json
 var package_default = {
   name: "@univerjs/docs-hyper-link",
-  version: "0.21.1",
+  version: "0.23.0",
   private: false,
-  description: "Univer thread comment plugin",
-  author: "DreamNum <developer@univer.ai>",
+  description: "Hyperlink model and commands for Univer Docs.",
+  author: "DreamNum Co., Ltd. <developer@univer.ai>",
   license: "Apache-2.0",
   funding: {
     type: "opencollective",
@@ -176,7 +176,13 @@ var package_default = {
   bugs: {
     url: "https://github.com/dream-num/univer/issues"
   },
-  keywords: [],
+  keywords: [
+    "univer",
+    "docs",
+    "hyperlink",
+    "link",
+    "plugin"
+  ],
   exports: {
     ".": "./src/index.ts",
     "./*": "./src/*"
@@ -221,8 +227,8 @@ var package_default = {
   },
   devDependencies: {
     "@univerjs-infra/shared": "workspace:*",
-    typescript: "^6.0.2",
-    vitest: "^4.1.4"
+    typescript: "^6.0.3",
+    vitest: "^4.1.5"
   }
 };
 
@@ -375,10 +381,10 @@ UniverDocsHyperLinkPlugin = __decorateClass([
 // ../packages/docs-hyper-link-ui/package.json
 var package_default2 = {
   name: "@univerjs/docs-hyper-link-ui",
-  version: "0.21.1",
+  version: "0.23.0",
   private: false,
-  description: "Univer thread comment plugin",
-  author: "DreamNum <developer@univer.ai>",
+  description: "Hyperlink editing UI for Univer Docs.",
+  author: "DreamNum Co., Ltd. <developer@univer.ai>",
   license: "Apache-2.0",
   funding: {
     type: "opencollective",
@@ -392,7 +398,13 @@ var package_default2 = {
   bugs: {
     url: "https://github.com/dream-num/univer/issues"
   },
-  keywords: [],
+  keywords: [
+    "univer",
+    "docs",
+    "hyperlink",
+    "link",
+    "ui"
+  ],
   exports: {
     ".": "./src/index.ts",
     "./*": "./src/*",
@@ -449,17 +461,17 @@ var package_default2 = {
     "@univerjs/docs-hyper-link": "workspace:*",
     "@univerjs/docs-ui": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "^1.1.1",
+    "@univerjs/icons": "1.4.0",
     "@univerjs/ui": "workspace:*"
   },
   devDependencies: {
     "@univerjs-infra/shared": "workspace:*",
-    postcss: "^8.5.10",
+    postcss: "^8.5.14",
     react: "18.3.1",
     rxjs: "^7.8.2",
     tailwindcss: "3.4.18",
-    typescript: "^6.0.2",
-    vitest: "^4.1.4"
+    typescript: "^6.0.3",
+    vitest: "^4.1.5"
   }
 };
 
@@ -582,7 +594,7 @@ var DocHyperLinkEdit = () => {
   const [label, setLabel] = (0, import_react.useState)("");
   const [showError, setShowError] = (0, import_react.useState)(false);
   const isLegal = Tools.isLegalUrl(link);
-  const doc = editing ? univerInstanceService.getUnit(editing.unitId, 1 /* UNIVER_DOC */) : univerInstanceService.getCurrentUnitForType(1 /* UNIVER_DOC */);
+  const doc = editing ? univerInstanceService.getUnit(editing.unitId, 1 /* UNIVER_DOC */) : univerInstanceService.getCurrentUnitOfType(1 /* UNIVER_DOC */);
   (0, import_react.useEffect)(() => {
     var _a, _b, _c, _d, _e, _f, _g, _h, _i;
     const activeRange = docSelectionManagerService.getActiveTextRange();
@@ -728,7 +740,7 @@ var shouldDisableAddLink = (accessor) => {
     return true;
   }
   const activeRange = textRanges[0];
-  const doc = univerInstanceService.getCurrentUnitForType(1 /* UNIVER_DOC */);
+  const doc = univerInstanceService.getCurrentUnitOfType(1 /* UNIVER_DOC */);
   if (!doc || !activeRange || activeRange.collapsed) {
     return true;
   }
@@ -745,7 +757,7 @@ var ShowDocHyperLinkEditPopupOperation = {
       return false;
     }
     const hyperLinkService = accessor.get(DocHyperLinkPopupService);
-    const unitId = (linkInfo == null ? void 0 : linkInfo.unitId) || ((_a = univerInstanceService.getCurrentUnitForType(1 /* UNIVER_DOC */)) == null ? void 0 : _a.getUnitId());
+    const unitId = (linkInfo == null ? void 0 : linkInfo.unitId) || ((_a = univerInstanceService.getCurrentUnitOfType(1 /* UNIVER_DOC */)) == null ? void 0 : _a.getUnitId());
     if (!unitId) {
       return false;
     }
@@ -2333,10 +2345,10 @@ DocQuickInsertUIController = __decorateClass([
 // ../packages/docs-quick-insert-ui/package.json
 var package_default3 = {
   name: "@univerjs/docs-quick-insert-ui",
-  version: "0.21.1",
+  version: "0.23.0",
   private: false,
-  description: "",
-  author: "DreamNum <developer@univer.ai>",
+  description: "Quick insert UI integration for Univer Docs.",
+  author: "DreamNum Co., Ltd. <developer@univer.ai>",
   license: "Apache-2.0",
   funding: {
     type: "opencollective",
@@ -2350,7 +2362,13 @@ var package_default3 = {
   bugs: {
     url: "https://github.com/dream-num/univer/issues"
   },
-  keywords: [],
+  keywords: [
+    "univer",
+    "docs",
+    "quick-insert",
+    "insert",
+    "ui"
+  ],
   exports: {
     ".": "./src/index.ts",
     "./*": "./src/*",
@@ -2410,17 +2428,17 @@ var package_default3 = {
     "@univerjs/drawing": "workspace:*",
     "@univerjs/drawing-ui": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "^1.1.1",
+    "@univerjs/icons": "1.4.0",
     "@univerjs/ui": "workspace:*"
   },
   devDependencies: {
     "@univerjs-infra/shared": "workspace:*",
-    postcss: "^8.5.10",
+    postcss: "^8.5.14",
     react: "18.3.1",
     rxjs: "^7.8.2",
     tailwindcss: "3.4.18",
-    typescript: "^6.0.2",
-    vitest: "^4.1.4"
+    typescript: "^6.0.3",
+    vitest: "^4.1.5"
   }
 };
 
@@ -2626,7 +2644,7 @@ var StartAddCommentOperation = {
     var _a, _b, _c;
     const panelService = accessor.get(ThreadCommentPanelService);
     const univerInstanceService = accessor.get(IUniverInstanceService);
-    const doc = univerInstanceService.getCurrentUnitForType(1 /* UNIVER_DOC */);
+    const doc = univerInstanceService.getCurrentUnitOfType(1 /* UNIVER_DOC */);
     const docSelectionManagerService = accessor.get(DocSelectionManagerService);
     const renderManagerService = accessor.get(IRenderManagerService);
     const userManagerService2 = accessor.get(UserManagerService);
@@ -2683,10 +2701,10 @@ var StartAddCommentOperation = {
 // ../packages/docs-thread-comment-ui/package.json
 var package_default4 = {
   name: "@univerjs/docs-thread-comment-ui",
-  version: "0.21.1",
+  version: "0.23.0",
   private: false,
-  description: "Univer thread comment plugin",
-  author: "DreamNum <developer@univer.ai>",
+  description: "Thread comment UI integration for Univer Docs.",
+  author: "DreamNum Co., Ltd. <developer@univer.ai>",
   license: "Apache-2.0",
   funding: {
     type: "opencollective",
@@ -2700,7 +2718,13 @@ var package_default4 = {
   bugs: {
     url: "https://github.com/dream-num/univer/issues"
   },
-  keywords: [],
+  keywords: [
+    "univer",
+    "docs",
+    "comment",
+    "thread-comment",
+    "ui"
+  ],
   exports: {
     ".": "./src/index.ts",
     "./*": "./src/*"
@@ -2749,19 +2773,19 @@ var package_default4 = {
     "@univerjs/docs": "workspace:*",
     "@univerjs/docs-ui": "workspace:*",
     "@univerjs/engine-render": "workspace:*",
-    "@univerjs/icons": "^1.1.1",
+    "@univerjs/icons": "1.4.0",
     "@univerjs/thread-comment": "workspace:*",
     "@univerjs/thread-comment-ui": "workspace:*",
     "@univerjs/ui": "workspace:*"
   },
   devDependencies: {
     "@univerjs-infra/shared": "workspace:*",
-    postcss: "^8.5.10",
+    postcss: "^8.5.14",
     react: "18.3.1",
     rxjs: "^7.8.2",
     tailwindcss: "3.4.18",
-    typescript: "^6.0.2",
-    vitest: "^4.1.4"
+    typescript: "^6.0.3",
+    vitest: "^4.1.5"
   }
 };
 
@@ -3083,7 +3107,7 @@ var DocThreadCommentRenderController = class extends Disposable {
         this._docRenderController.reRender(activeComment.unitId);
         return;
       }
-      const unitId = (_a = this._univerInstanceService.getCurrentUnitForType(1 /* UNIVER_DOC */)) == null ? void 0 : _a.getUnitId();
+      const unitId = (_a = this._univerInstanceService.getCurrentUnitOfType(1 /* UNIVER_DOC */)) == null ? void 0 : _a.getUnitId();
       if (unitId) {
         this._docRenderController.reRender(unitId);
       }

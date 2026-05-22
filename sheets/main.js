@@ -1,99 +1,99 @@
 import {
   vi_VN_default
-} from "../chunk-HPJ3AW7Y.js";
+} from "../chunk-UI6IMEIU.js";
 import {
   ja_JP_default
-} from "../chunk-PD263RJ4.js";
+} from "../chunk-NWL3T6LW.js";
 import {
   fa_IR_default
-} from "../chunk-BNBSRXUQ.js";
+} from "../chunk-FBK2PJEU.js";
 import {
   ko_KR_default
-} from "../chunk-I7VX4UY4.js";
+} from "../chunk-X46GIO6P.js";
 import {
   es_ES_default
-} from "../chunk-XUIXB4SC.js";
+} from "../chunk-YGKOIKAP.js";
 import {
   ca_ES_default
-} from "../chunk-UDHWEDTP.js";
+} from "../chunk-MCAYPTCG.js";
 import {
   sk_SK_default
-} from "../chunk-W6VSAPLQ.js";
+} from "../chunk-76Q3DEDZ.js";
 import {
   zh_TW_default
-} from "../chunk-RXHA36DD.js";
+} from "../chunk-7US4TZF6.js";
 import {
   fr_FR_default
-} from "../chunk-OCDBSN3S.js";
+} from "../chunk-B2J3326S.js";
 import {
   ru_RU_default
-} from "../chunk-7BDOVJCZ.js";
-import "../chunk-VUOGANWW.js";
-import "../chunk-4NS6IGPD.js";
+} from "../chunk-PYSRDKXA.js";
+import "../chunk-KSXPNKWR.js";
+import "../chunk-TXVVQJFI.js";
 import {
   UniverVue3AdapterPlugin,
   UniverWebComponentAdapterPlugin
-} from "../chunk-O2SGZFGH.js";
+} from "../chunk-XNTI5GJS.js";
 import {
   UniverNetworkPlugin
-} from "../chunk-G5Q3S2AD.js";
-import "../chunk-4B4C4TNZ.js";
+} from "../chunk-OIKKDFLS.js";
+import "../chunk-HBGRYLOQ.js";
 import {
   UniverSheetsThreadCommentPlugin
-} from "../chunk-GYSH6HL2.js";
-import "../chunk-DKS4OYGR.js";
+} from "../chunk-MCU7VS5Z.js";
+import "../chunk-PPCSYJSV.js";
 import {
   en_US_default
-} from "../chunk-XFE447EZ.js";
+} from "../chunk-X6E5KH4A.js";
 import "../chunk-D5O35L4U.js";
 import "../chunk-JP6QLGWM.js";
 import "../chunk-WT4JNZXZ.js";
 import {
   UniverSheetsNotePlugin,
   UniverSheetsTablePlugin
-} from "../chunk-5LSPWM2V.js";
+} from "../chunk-74HFMGP5.js";
 import {
   UniverSheetsZenEditorPlugin
-} from "../chunk-QDPEMCUR.js";
+} from "../chunk-ANPYO53U.js";
 import {
   UniverSheetsHyperLinkPlugin
-} from "../chunk-MIVGOTSS.js";
+} from "../chunk-AWHXLMAM.js";
 import {
   UniverSheetsSortPlugin
-} from "../chunk-W7EFL2EA.js";
-import "../chunk-SYD2KNGE.js";
+} from "../chunk-CLVCDLYQ.js";
+import "../chunk-6ZTLU7PB.js";
 import {
   UniverDebuggerPlugin
-} from "../chunk-HR2FZVF3.js";
-import "../chunk-THXVG335.js";
-import "../chunk-VVSCTRT4.js";
-import "../chunk-MOHJC2BO.js";
-import "../chunk-MLFBVVME.js";
+} from "../chunk-NDYOLQLZ.js";
+import "../chunk-IF37WRIX.js";
+import "../chunk-IETYKXRU.js";
+import "../chunk-P3COAZ6H.js";
+import "../chunk-SM5XGW6L.js";
 import {
   FUniver
-} from "../chunk-BOFO7FDU.js";
+} from "../chunk-RRPQGQCJ.js";
 import {
   UniverSheetsConditionalFormattingPlugin
-} from "../chunk-2FNOW4GK.js";
+} from "../chunk-EHC5QH3R.js";
 import {
   UniverSheetsFilterPlugin
-} from "../chunk-AZHMLAGZ.js";
-import "../chunk-M6GAWQ5P.js";
+} from "../chunk-BSAX7R4H.js";
+import "../chunk-LL3C23MC.js";
 import {
   UniverSheetsNumfmtPlugin
-} from "../chunk-N2RQEFDC.js";
+} from "../chunk-FVDEHCGA.js";
 import {
   UniverSheetsUIPlugin,
   whenSheetEditorFocused
-} from "../chunk-MBZ442FO.js";
+} from "../chunk-PQXBTX33.js";
 import {
   DEFAULT_WORKBOOK_DATA_DEMO
-} from "../chunk-YLOR7Z6Y.js";
+} from "../chunk-3MPN2FQO.js";
 import {
   UniverDocsPlugin,
   UniverDocsUIPlugin,
   UniverSheetsDataValidationPlugin
-} from "../chunk-PPREH44U.js";
+} from "../chunk-UYLQVP27.js";
 import "../chunk-LI6UXASZ.js";
 import {
   ComponentManager,
@@ -103,13 +103,13 @@ import {
   IShortcutService,
   UniverUIPlugin,
   require_jsx_runtime
-} from "../chunk-NW5FEDQC.js";
+} from "../chunk-RDPVWSGF.js";
 import {
   zh_CN_default
-} from "../chunk-OROQCTWB.js";
+} from "../chunk-BX66AN5H.js";
 import {
   UniverSheetsFormulaPlugin
-} from "../chunk-5YA62WFH.js";
+} from "../chunk-CTBLWIU7.js";
 import {
   ClearSelectionContentCommand,
   RemoveColByRangeCommand,
@@ -124,11 +124,11 @@ import {
   UniverRPCMainThreadPlugin,
   UniverSheetsPlugin,
   getSheetCommandTarget
-} from "../chunk-JGEZE7BC.js";
+} from "../chunk-QLAYCCMO.js";
 import {
   IRenderManagerService,
   UniverRenderEnginePlugin
-} from "../chunk-VYDPVHQH.js";
+} from "../chunk-ADPAOSVN.js";
 import {
   CanceledError,
   DisposableCollection,
@@ -144,7 +144,7 @@ import {
   combineLatest,
   covertCellValues,
   sequenceExecute
-} from "../chunk-UI3TUZSE.js";
+} from "../chunk-P5OMPNXM.js";
 import "../chunk-EQ2B2W73.js";
 import {
   __decorateClass,
@@ -152,6 +152,69 @@ import {
   __publicField,
   __toESM
 } from "../chunk-24OICD5T.js";
+
+// src/sheets/custom/custom-float-dom/component.tsx
+var import_jsx_runtime = __toESM(require_jsx_runtime());
+var RangeLoading = () => {
+  const divStyle = {
+    width: "100%",
+    height: "100%",
+    backgroundColor: "#fff",
+    border: "1px solid #ccc",
+    boxSizing: "border-box",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    textAlign: "center",
+    transformOrigin: "top left"
+  };
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: divStyle, children: "Loading..." });
+};
+
+// src/sheets/custom/custom-float-dom/float-dom.ts
+function insertFloatDom(univer, univerAPI) {
+  univerAPI.addEvent(univerAPI.Event.LifeCycleChanged, ({ stage }) => {
+    if (stage === univerAPI.Enum.LifecycleStages.Steady) {
+      univerAPI.registerComponent("RangeLoading", RangeLoading);
+      const fWorkbook = univerAPI.getActiveWorkbook();
+      const fWorksheet = fWorkbook.getActiveSheet();
+      const fRange = fWorksheet.getRange("A1:C3");
+      const disposable = fWorksheet.addFloatDomToRange(fRange, { componentKey: "RangeLoading" }, {}, "myRangeLoading");
+      console.warn("Float DOM", disposable);
+    }
+  });
+}
+
+// src/sheets/custom/custom-range-popup/simple-range-popup.tsx
+var import_jsx_runtime2 = __toESM(require_jsx_runtime());
+function simpleRangePopupDemo(univer, univerAPI) {
+  univerAPI.registerComponent("MySimplePopup", () => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+    "div",
+    {
+      style: {
+        padding: "8px",
+        background: "white",
+        border: "1px solid #ccc",
+        borderRadius: "4px",
+        boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+        color: "#333"
+      },
+      children: "Hello from Range Popup!"
+    }
+  ));
+  univerAPI.addEvent(univerAPI.Event.LifeCycleChanged, (params) => {
+    if (params.stage === 2 /* Rendered */) {
+      const workbook = univerAPI.getActiveWorkbook();
+      const worksheet = workbook.getActiveSheet();
+      const range = worksheet.getRange("B2:D100");
+      range.attachRangePopup({
+        componentKey: "MySimplePopup",
+        direction: "right-bottom",
+        offset: [0, 10]
+      });
+    }
+  });
+}
 
 // src/sheets/custom/custom-register-event.ts
 function customRegisterEvent(univer, univerAPI) {
@@ -515,37 +578,6 @@ ImportCSVButtonPlugin = __decorateClass([
 ], ImportCSVButtonPlugin);
 var import_csv_button_default = ImportCSVButtonPlugin;
 
-// src/sheets/custom/simple-range-popup.tsx
-var import_jsx_runtime = __toESM(require_jsx_runtime());
-function simpleRangePopupDemo(univer, univerAPI) {
-  univerAPI.registerComponent("MySimplePopup", () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
-    "div",
-    {
-      style: {
-        padding: "8px",
-        background: "white",
-        border: "1px solid #ccc",
-        borderRadius: "4px",
-        boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
-        color: "#333"
-      },
-      children: "Hello from Range Popup!"
-    }
-  ));
-  univerAPI.addEvent(univerAPI.Event.LifeCycleChanged, (params) => {
-    if (params.stage === 2 /* Rendered */) {
-      const workbook = univerAPI.getActiveWorkbook();
-      const worksheet = workbook.getActiveSheet();
-      const range = worksheet.getRange("B2:D100");
-      range.attachRangePopup({
-        componentKey: "MySimplePopup",
-        direction: "right-bottom",
-        offset: [0, 10]
-      });
-    }
-  });
-}
-
 // src/sheets/main.ts
 var IS_E2E = false;
 var LOAD_LAZY_PLUGINS_TIMEOUT = 50;
@@ -632,13 +664,13 @@ function createNewInstance() {
     univer.createUnit(2 /* UNIVER_SHEET */, DEFAULT_WORKBOOK_DATA_DEMO);
   }
   setTimeout(() => {
-    import("../lazy-6QEOYJZH.js").then((lazy) => {
+    import("../lazy-TVL7DDXF.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
   }, LOAD_LAZY_PLUGINS_TIMEOUT);
   setTimeout(() => {
-    import("../very-lazy-KCTSHCTR.js").then((lazy) => {
+    import("../very-lazy-BO2ZUFUF.js").then((lazy) => {
       const plugins = lazy.default();
       univer.registerPlugins(plugins);
     });
@@ -652,6 +684,7 @@ function createNewInstance() {
   window.univerAPI = FUniver.newAPI(univer);
   customRegisterEvent(univer, window.univerAPI);
   simpleRangePopupDemo(univer, window.univerAPI);
+  insertFloatDom(univer, window.univerAPI);
 }
 createNewInstance();
 window.createNewInstance = createNewInstance;
